@@ -1210,6 +1210,8 @@ section[id] { scroll-margin-top: 72px; }
 /* mobile: leave room for the sticky action bar */
 @media (max-width: 979px) {
   body { padding-bottom: calc(62px + env(safe-area-inset-bottom)); }
+  /* niente bolla WhatsApp verde su mobile: c'e' gia' la barra azioni */
+  .float-wa { display: none; }
 }
 
 /* ---------- Small phones: fine-tuning ---------- */
