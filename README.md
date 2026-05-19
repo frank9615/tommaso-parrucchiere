@@ -52,6 +52,11 @@ Le foto in `images/` sono fotografie professionali da [Unsplash](https://unsplas
 barber shop. Per il massimo impatto, consigliamo di sostituirle con foto reali del
 negozio e dei lavori di Tommaso, mantenendo gli stessi nomi file e proporzioni.
 
+Ogni immagine ha una **variante ridotta per mobile** (`-sm` per la gallery e
+`about-sm.jpg`, `hero-mobile.jpg` per la hero), servita automaticamente ai telefoni
+tramite `srcset` / `<picture>`. Se sostituisci una foto, rigenera anche la sua
+variante leggera con le stesse proporzioni.
+
 ## SEO
 
 - Meta tag, Open Graph e Twitter Card
